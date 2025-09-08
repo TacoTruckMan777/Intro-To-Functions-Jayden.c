@@ -32,4 +32,4 @@ def right():
     t.left(135)
     t.forward(142)
 right()
-turtle.done
+turtle.done()
