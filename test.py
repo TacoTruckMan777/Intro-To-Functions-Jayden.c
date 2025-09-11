@@ -2,16 +2,17 @@ import turtle
 from turtle import *
 t = Turtle()
 t.shape('turtle')
-def square(x):
+t.speed(9999)
+sidelength = 100
+rotate = 90
+def square(x,y):
+   for i in range(4):
     t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-    t.forward(x)
-    t.left(90)
-t.speed(99999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999999)
-for i in range(6009999999999999):
-    square(200)
-    t.right(0.1)
+    t.left(y)
+def AddSquares(iRange):
+    length = 5
+    for i in range(iRange):
+        square(length, 90)
+        length += 5
+        t.right(5)
+AddSquares(40)
