@@ -15,4 +15,4 @@ def AddSquares(iRange):
         square(length, 144)
         length += 5
         t.right(5)
-AddSquares(600)
+AddSquares(6000000000)
